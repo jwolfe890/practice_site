@@ -286,3 +286,11 @@ header {
 .container4 img {
   height: auto;
 }
+
+a { color: inherit;
+  all: unset; 
+} 
+
+li a bn {
+  color: white;
+}
