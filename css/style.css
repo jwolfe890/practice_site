@@ -148,7 +148,7 @@ header {
 }
 
 .flex-nav li {
-  margin-left: 1rem;
+  margin-left: 40px;
   line-height: 55px;
   font-size: 15px;
   font-family: Carnas-Light;
@@ -166,8 +166,16 @@ header {
 }
 
 .bn {
-  width: auto;
-  height: auto;
+  border-radius: 5px;
+  background: #de6426;
+  color: #ffffff !important;
+  width: 150px;
+  text-align: center;
+  font-size: 18px !important;
+  line-height: 30px !important;
+  top: 12px !important;
+  padding: 0px;
+  font-family: Carnas-Light;
 }
 
 @font-face {
@@ -176,23 +184,60 @@ header {
 }
 
 
-h2 {
+.field {
   color: white;
   font-size: 35px;
   font-weight: 500;
   background-color: #0f2c4d;
 }
 
-.container2 {
+.container5 {
+  overflow: hidden;
+}
+
+#gh {
+  color: #008ad1;
+  font-size: 20px;
+}
+
+.field2 {
   text-align: center;
   font-family: Carnas-Light;
+  color: #008ad1!important;
+  font-size: 35px;
+  padding-top: 20px;
+  margin-bottom: 10px;
+  padding-right: 140px;
+  padding-left: 140px;
+}
+
+.container3 {
+  background-color: #e0dfdf;
+}
+
+.icons {
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.text {
+  width: 83.3333%;
+  margin-left: 8.333%;
+  text-align: center;
+  font-family: Carnas-Light;
+}
+
+.container2 { 
   background-color: #0f2c4d;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 100%;
   padding-top: 40px;
   padding-bottom: 40px;
-  /* padding-right: 15px; */
-  padding-left: 15px;
-  /* width: 83.33333333%; */
-  padding-left: 10%;
-  padding-right: 10%;
-  height: 100%;
+}
+
+.field {
+  font-weight: 500;
+  line-height: 1.1;
 }
