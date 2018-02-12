@@ -9,9 +9,39 @@
     <title>Document</title>
 </head>
 <body>
-        <div class="container">
-                        <img class="fleet"  src="./images/service-truck-md.png" alt="Mountain View">
+    
+    <header>
+            <div class="logo-image">
+                <img class="logo-img" src="./images/workwave-logo.svg" alt="Mountain View">
+            </div>
+            <nav class="flex-nav">
+                <ul>
+                    <li id="gh">SOLUTIONS</li>
+                    <li>INDUSTRY</li>
+                    <li>EVENTS</li>
+                    <li>BLOG</li>
+                    <li><button type="button" class="btn btn-primary bn">GET STARTED</button></li>
+                </ul>              
+            </nav>
+    </header>
 
+        <div class="container1 overlay">
+            <section id="hero"></section>
+        </div>
+      
+        <div class="container2">
+                <h2>WorkWave provides intuitive cloud-based field service & fleet management solutions that help organizations with a mobile workforce transform their business.</h2>
+        </div>
+
+        <div class="container3">
+            <p>A few of our customers that have already improved their business with WorkWave</p>
+        </div>
+        
+        <div class="container4"> 
+            <img class="fleet"  src="./images/service-truck-md.png" alt="Mountain View">
+        </div>
+
+        <div class="container5">
                         <div class="items"> 
                             <h1>Intelligent Route Planning & Fleet Management</h1>
                             <p>Improve efficiency and scalability of fleet operations through dynamic planning, intelligent route optimization and more.</p>
@@ -19,6 +49,40 @@
                         </div>
                     <img class="fleet"  src="./images/fleet-sm.png" alt="Mountain View">
         </div> 
+
+        <div class="container6">
+                <img class="fleet"  src="./images/gps-lg.png" alt="Mountain View">
+        </div>
+        <div class="container7">
+                <img class="fleet"  src="./images/workwave-marketing.png" alt="Mountain View">
+        </div>
+        <div class="container8">
+                <img class="fleet"  src="./images/workwave-testimonial.png" alt="Mountain View">
+        </div>
+        <div class="container9">
+            <p>Founded in 1984, WorkWave has been recognized with multiple awards for its outstanding growth and culture including the Inc. 5000, SmartCEO, Future 50, and Best Places to Work in NJ.</p>
+        </div>
+
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+        <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+        </script>
+
 </body>
 </html>
 
